@@ -23,6 +23,10 @@ span.highlight {
   display: block;
 }
 
+.slide div.content {
+  margin-top: 30px;
+}
+
 .slide .logo {
   margin: 1em 0 0 0;
   width: 50%;
@@ -34,4 +38,14 @@ span.highlight {
 
 .slide .video {
   max-height: 400px;
+}
+
+.slide ul {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.slide ul li {
+  list-style: square outside;
+  line-height: 1.5em;
 }
