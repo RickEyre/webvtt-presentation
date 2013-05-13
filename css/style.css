@@ -1,0 +1,33 @@
+h1 {
+  line-height: 1em;
+}
+
+span.highlight {
+  font-weight:700;
+  color:#C11B17;
+}
+
+#title {
+  color:black;
+  text-align: center;
+}
+
+.slide q {
+  margin-top: 0px;
+  color:black;
+}
+
+.slide span.sub-header {
+  font-size: smaller;
+  margin-left: 1em;
+  display: block;
+}
+
+.slide .logo {
+  margin: 1em 0 0 0;
+  width: 50%;
+}
+
+.slide .center {
+  text-align: center;
+}
