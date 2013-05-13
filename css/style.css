@@ -31,3 +31,7 @@ span.highlight {
 .slide .center {
   text-align: center;
 }
+
+.slide .video {
+  max-height: 400px;
+}
