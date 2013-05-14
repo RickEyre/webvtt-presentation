@@ -42,37 +42,64 @@
             <div class="content">
                 <ul>
                     <li>Stands for Web Video Text Tracks</li>
-                    <li>Just means video captions on the web</li>
-                    <li>Currently an open spec managed by the W3C</li>
+                    <li>A fancy name for video captions on the web</li>
+                    <li>Currently an open spec <span class="highlight-black">(draft!!)</span> managed by the W3C</li>
                 </ul>
             </div>
         </div>
         <div class="step slide" data-x="2000" data-y="-1500">
             <div class="header">
                 <q>The Vision</q>
-                <span class="sub-header">Creating a more open web</span>
+                <span class="sub-header">Creating a more open and seamless web</span>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Furthers media accessibility on the web</li>
+                    <li>International language support using UTF-8</li>
+                    <li>Seamless experience for authors and users</li>
+                </ul>
             </div>
         </div>
         <div class="step slide" data-x="3000" data-y="-1500">
             <div class="header">
                 <q>Benefits of WEBVTT</q>
-                <span class="sub-header">Code all the things</span>
+                <span class="sub-header">Don't you love the web?</span>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Style with CSS</li>
+                    <li>Work with captions using Javascript</li>
+                    <li>Embed WEBVTT directly into video <span class="highlight-black">(future)</span></li>
+                </ul>
             </div>
         </div>
         <div class="step slide" data-x="4000" data-y="-1500">
             <div class="header">
-                <q>Check it out..</q>
+                <q>WEBVTT In Action</q>
+                <span class="sub-header">Dazzled... ?</span>
             </div>
             <div class="center content">
-                <video src="vids/life-is-like-a-mop.webm" controls preload="auto">
+                <video src="vids/life-is-like-a-mop.webm" controls preload="auto" width="700px">
                     <track kind="subtitles" src="captions/life-is-like-a-mop.vtt" label="ptsubs" srclang="pt-BR" default />
                 </video>
             </div>
         </div>
         <div class="step slide" data-x="5000" data-y="-1500">
             <div class="header">
-                <q>Seneca's Open-source Class</q>
+                <q>Seneca's Open-source Class(es)</q>
                 <span class="sub-header">You could say that was a hard course...</span>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>"Here is the spec, now go!" <span class="highlight-black">(Dave Humphrey, 2012)</span></li>
+                    <li>Build a test suite</li>
+                    <li>Build a parser</li>
+                    <li>Make sure it builds everywhere</li>
+                    <li>Integrate into Firefox</li>
+                    <li><span class="highlight-black">Iterate</span></li>
+                    <li>Oh, and don't forget to sleep!</li>
+                    <li><span class="highlight-black">Take the class</span></li>
+                </ul>
             </div>
         </div>
         <div class="step slide" data-x="6000" data-y="-1500">
@@ -80,17 +107,102 @@
                 <q>What We've Done</q>
                 <span class="sub-header">So you said you like C?</span>
             </div>
+            <div class="content">
+                <ul>
+                    <li>Standalone C Parser - <span class="highlight-black">'89 C Standard</span></li>
+                    <li>Autotools Build System</li>
+                    <li>Test Suite in gtest - <span class="highlight-black">400+ Unit Tests</span></li>
+                    <li>Custom Ref Counting and Memory Management</li>
+                    <li>String API With Support for UTF8/16</li>
+                    <li>C++ Binding Layer</li>
+                    <li>Flexibility With Application Provided Callbacks</li>
+                    <li><span class="highlight-black">400+</span> Pull Requests and Issues Closed</li>
+                </ul>
+            </div>
         </div>
         <div class="step slide" data-x="7000" data-y="-1500">
             <div class="header">
                 <q>Integration into Firefox</q>
-                <span class="sub-header">Wow Gecko</span>
+                <span class="sub-header">Oh Gecko...</span>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>DOM Tests</li>
+                    <li>DOM Implementation</li>
+                    <li>Parser Build System Integration</li>
+                    <li>Parser Integration</li>
+                    <li>Video Div Overlay</li>
+                </ul>
             </div>
         </div>
         <div class="step slide" data-x="8000" data-y="-1500">
             <div class="header">
                 <q>Future Development</q>
                 <span class="sub-header">The future is bright</span>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Proper implementation of video::cue psuedo-element</li>
+                    <li>Same with ::before and ::after css psuedo-classes</li>
+                    <li>Implement spec algorithm to handle multiple tracks</li>
+                    <li>Keep up with draft spec as it is changing</li>
+                    <li>Fix the sec-critical bugs</li>
+                    <li>Oh wait... fix <span class="highlight-black">ALL</span> the bugs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="step slide" data-x="9000" data-y="-1500">
+            <div class="header">
+                <q>Future, Future Development</q>
+                <span class="sub-header">The future is brighter</span>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Authoring tools for desktop or online <span class="highlight-black">(Webmaker?)</span></li>
+                    <li>WEBVTT validator tools</li>
+                    <li>Support for livestream captioning</li>
+                    <li>Screen reader support for visually impaired</li>
+                    <li>Possibilities are endless</li>
+                </ul>
+            </div>
+        </div>
+        <div class="step slide" data-x="10000" data-y="-1500">
+            <div class="header">
+                <q>Contributors</q>
+            </div>
+            <div class="content">
+                <ul style="float: left;">
+                    <li>Ralph Giles</li>
+                    <li>Caitlin Potter</li>
+                    <li>Rick Eyre</li>
+                    <li>Dale Karp </li>
+                    <li>Edwin Lim</li>
+                    <li>Michael Afidchao</li>
+                    <li>Shayan Ahmad</li>
+                    <li>Jordan Raffoul</li>
+                    <li>David Humphrey</li>
+                    <li>Vince Lee</li>
+                </ul>
+                <ul style="float: right;">
+                    <li>Mandeep Garg</li>
+                    <li>Anh Tran</li>
+                    <li>Thevakaran Virutthasalam</li>
+                    <li>Mike Shutov</li>
+                    <li>Michael Stiver-Balla</li>
+                    <li>Kyle Barnhart</li>
+                    <li>David Perit</li>
+                    <li>Marcus Saad</li>
+                    <li>Jesse Silver</li>
+                </ul>
+            </div>
+        </div>
+        <div class="step slide" data-x="11000" data-y="-1500">
+            <div class="header">
+                <q>Mozilla Community</q>
+                <span class="sub-header">An awesome community</span>
+            </div>
+            <div class="content center">
+                <img src="img/contribs.png" alt="Wow coding" />
             </div>
         </div>
     </div>

@@ -7,6 +7,11 @@ span.highlight {
   color:#C11B17;
 }
 
+span.highlight-black {
+  color: black;
+  font-weight:700;
+}
+
 #title {
   color:black;
   text-align: center;
